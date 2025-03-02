@@ -12,31 +12,6 @@ This repository contains detailed documentation about the **Laravel PHP Framewor
 2. [Installing Laravel](#installing-laravel)
    - [Prerequisites](#prerequisites)
    - [Installation Process](#installation-process)
-3. [Laravel Architecture](#laravel-architecture)
-   - [MVC (Model-View-Controller)](#mvc-model-view-controller)
-   - [Request Lifecycle](#request-lifecycle)
-4. [Core Concepts in Laravel](#core-concepts-in-laravel)
-   - [Routes](#routes)
-   - [Controllers](#controllers)
-   - [Eloquent ORM](#eloquent-orm)
-   - [Blade Templating Engine](#blade-templating-engine)
-   - [Middleware](#middleware)
-5. [Laravel Ecosystem](#laravel-ecosystem)
-6. [Laravel in the Industry](#laravel-in-the-industry)
-   - [E-Commerce](#e-commerce)
-   - [Startups](#startups)
-   - [Content Management Systems (CMS)](#content-management-systems-cms)
-7. [Best Practices for Laravel Development](#best-practices-for-laravel-development)
-8. [Extra Added Theory Introduction to Laravel](#extra-added-theory-introduction-to-laravel)
-   - [Introduction to Laravel](#introduction-to-laravel)
-   - [Laravel MVC Architecture](#laravel-mvc-architecture)
-   - [Routing in Laravel](#routing-in-laravel)
-   - [Blade Templating Engine](#blade-templating-engine)
-   - [Database Migrations and Eloquent ORM](#database-migrations-and-eloquent-orm)
-   - [Laravel Middleware](#laravel-middleware)
-   - [Laravel Authentication](#laravel-authentication)
-   - [Testing in Laravel](#testing-in-laravel)
-
 ---
 
 ## Introduction to Laravel PHP Framework
@@ -68,3 +43,6 @@ Laravel is an open-source PHP web application framework that follows the MVC (Mo
 2. **Install Laravel**: Use Composer to create a new Laravel project.
    ```bash
    composer create-project --prefer-dist laravel/laravel projectname
+3. **Running Server**: Use php artisan serve
+   ```bash
+      php artisan serve
